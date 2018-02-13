@@ -25,7 +25,7 @@ for (var i = 0; i < availableNumbers.length; i++) {
 	// assigns the swordImage class to every image it creates
 	swordImage.addClass("swordImage");
 	// attaches the image link to the image 
-	swordImage.attr("src", "../assets/images/swordimg.jpg");
+	swordImage.attr("src", "assets/images/swordimg.jpg");
 	// associates an available number with each image it creates
 	swordImage.attr("data-swordNumber", availableNumbers[i]);
 	// appends each sword image to the swords div
